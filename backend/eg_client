@@ -1,0 +1,27 @@
+// Example client-side code (you would implement this in your frontend application)
+/*
+import io from 'socket.io-client';
+
+const socket = io('http://localhost:3000');
+
+socket.on('connect', () => {
+  console.log('Connected to server');
+  
+  // Join user's room
+  socket.emit('join', userId);
+});
+
+socket.on('notification', (notification) => {
+  console.log('New notification:', notification);
+  // Update UI to show new notification
+});
+
+socket.on('newProduct', (product) => {
+  console.log('New product added:', product);
+  // Update UI to show new product
+});
+
+socket.on('disconnect', () => {
+  console.log('Disconnected from server');
+});
+*/
