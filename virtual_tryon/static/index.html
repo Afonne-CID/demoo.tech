@@ -1,0 +1,102 @@
+<!-- static/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Virtual Try-On</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+</head>
+<body>
+    <h1>Real-Time Virtual Try-On</h1>
+    <div>
+        <label for="category">Category:</label>
+        <select id="category">
+            <option value="clothing">Clothing</option>
+            <option value="footwear">Footwear</option>
+            <option value="accessories">Accessories</option>
+            <option value="hair">Hair</option>
+        </select>
+    </div>
+    <div>
+        <label for="itemImage">Item Image:</label>
+        <input type="file" id="itemImage" accept="image/*">
+    </div>
+    <button onclick="loadItem()">Load Item</button>
+    <div>
+        <video id="video" width="640" height="480" autoplay></video>
+        <canvas id="canvas" width="640" height="480" style="display:none;"></canvas>
+    </div>
+    <div id="result">
+        <img id="resultImage" style="max-width: 100%; display: none;">
+    </div>
+
+    <script>
+        let stream;
+        let intervalId;
+
+        async function loadItem() {
+            const category = document.getElementById('category').value;
+            const itemImage = document.getElementById('itemImage').files[0];
+
+            if (!itemImage) {
+                alert('Please select an item image');
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append('category', category);
+            formData.append('item_image', itemImage);
+
+            try {
+                const response = await axios.post('/api/try-on', formData, {
+                    headers: { 'Content-Type': 'multipart/form-data' }
+                });
+                alert(response.data.result);
+                startRealTimeProcessing();
+            } catch (error) {
+                console.error('Error:', error);
+                if (error.response) {
+                    alert('An error occurred while loading the item: ' + error.response.data.detail);
+                } else {
+                    alert('An error occurred while loading the item. Please try again.');
+                }
+            }
+        }
+
+        async function startRealTimeProcessing() {
+            const video = document.getElementById('video');
+            const canvas = document.getElementById('canvas');
+            const ctx = canvas.getContext('2d');
+
+            stream = await navigator.mediaDevices.getUserMedia({ video: true });
+            video.srcObject = stream;
+
+            intervalId = setInterval(async () => {
+                ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+                const imageData = canvas.toDataURL('image/jpeg');
+                const category = document.getElementById('category').value;
+
+                try {
+                    const response = await axios.post('/api/real-time-frame', {
+                        category: category,
+                        frame: imageData.split(',')[1]
+                    }, {
+                        headers: { 'Content-Type': 'application/json' }
+                    });
+
+                    const resultImage = document.getElementById('resultImage');
+                    resultImage.src = 'data:image/png;base64,' + response.data.result;
+                    resultImage.style.display = 'block';
+                } catch (error) {
+                    console.error('Error:', error);
+                    if (error.response) {
+                        console.error('Error detail:', error.response.data.detail);
+                    }
+                }
+            }, 100);  // Process every 100ms
+        }
+
+    </script>
+</body>
+</html>
