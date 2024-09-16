@@ -1,0 +1,17 @@
+node_modules
+env/
+env
+.env
+/__pycache__
+__pycache__
+__pycache__
+*.pyc
+.vscode
+.idea
+venv
+*.pth
+app/data/densepose
+app/data/images
+app/data/keypoints
+app/data/labels
+app/data/segm
