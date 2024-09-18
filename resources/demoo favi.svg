@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="11in" height="8.5in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 11000 8500"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="703" font-variant="normal" class="str0" style="fill-rule:nonzero" font-weight="700">
+	<font-face 
+		font-family="Nirmala UI">
+		<font-face-src>
+			<font-face-name name="Nirmala UI Bold"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="o" horiz-adv-x="611" d="M303.166 -12.1673c-83.3332,0 -148.833,23.3337 -196.499,70.0011 -47.6663,46.6654 -71.4995,110.167 -71.4995,190.166 0,82.6679 24.6663,147.5 74.1667,194.168 49.4984,46.6654 116.499,69.999 200.667,69.999 82.9995,0 148.166,-23.3337 195.332,-69.999 47.1669,-46.6674 70.8342,-108.501 70.8342,-185.335 0,-82.9995 -24.3347,-148.665 -73.002,-196.833 -48.6653,-48.1658 -115.332,-72.1668 -200,-72.1668zm3.99983 406.167c-36.5,0 -64.8324,-12.499 -84.9994,-37.4989 -20.167,-25.1678 -30.3324,-60.6668 -30.3324,-106.501 0,-96 38.8335,-144 116.333,-144 73.8331,0 110.833,49.3346 110.833,147.834 0,93.5006 -37.3331,140.166 -111.833,140.166z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Nirmala UI";font-variant:normal;font-weight:bold;src:url("#FontID0") format(svg)}
+    .str0 {stroke-width:1.54;stroke-miterlimit:2.61313}
+    .str3 {stroke:#F58634;stroke-width:6.94;stroke-miterlimit:2.61313}
+    .str2 {stroke:#F58634;stroke-width:3;stroke-miterlimit:2.61313}
+    .str1 {stroke:#827AF0;stroke-width:3;stroke-miterlimit:2.61313}
+    .fil1 {fill:#F58634}
+    .fil0 {fill:#827AF0}
+    .fnt0 {font-weight:bold;font-size:1946.93px;font-family:'Nirmala UI'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g transform="matrix(0.950565 0 0 1 -5162.7 -3109.76)">
+   <text x="5500" y="4250"  class="fil0 str1 fnt0">o</text>
+  </g>
+  <g transform="matrix(0.950565 0 0 1 -4043.87 -3109.76)">
+   <text x="5500" y="4250"  class="fil1 str2 fnt0">o</text>
+  </g>
+  <path class="fil1 str3" d="M969.06 604.82c261.08,165.07 234.72,93.41 464.37,0l2.16 140.03c-254.28,176.07 -240.81,118.54 -464.2,15.8l-2.33 -155.82z"/>
+ </g>
+</svg>
