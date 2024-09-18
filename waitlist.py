@@ -135,17 +135,22 @@ def add_to_waitlist():
     
     if not email:
         return jsonify({"error": "Email is required"}), 400
-    
-    normalized_email = normalize_email(email)
-    
-    if not is_valid_email(normalized_email):
-        return jsonify({"error": "Invalid email address"}), 400
-    
-    if is_duplicate(normalized_email):
-        return jsonify({"error": "Email already exists in waitlist"}), 409
 
+    try:
+        normalized_email = normalize_email(email)
+        
+        if not is_valid_email(normalized_email):
+            return jsonify({"error": "Invalid email address"}), 400
+        
+        if is_duplicate(normalized_email):
+            return jsonify({"error": "Email already exists in waitlist"}), 409
+
+        add_email(normalized_email)
+        return jsonify({"message": "Successfully added to waitlist!"}), 200
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
     # try:
-    #     add_email(normalized_email)
     #     if send_welcome_email(normalized_email):
     #         return jsonify({"message": "Successfully added to waitlist and welcome email sent"}), 200
     #     else:
