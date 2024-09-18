@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="11in" height="8.5in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 11000 8500"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="703" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="700">
+	<font-face 
+		font-family="Nirmala UI">
+		<font-face-src>
+			<font-face-name name="Nirmala UI Bold"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="e" horiz-adv-x="540" d="M514.167 206l-326.167 0c5.16696,-72.4995 51,-108.835 137.167,-108.835 55.0005,0 103.333,13.0016 144.999,39.0006l0 -111.334c-46.1657,-24.6662 -106.165,-36.9983 -180.166,-36.9983 -80.6669,0 -143.334,22.3333 -188,67.1662 -44.5003,44.6666 -66.8336,107.167 -66.8336,187.166 0,82.9998 24.0009,148.833 72.3332,197.334 48.166,48.4986 107.333,72.6659 177.666,72.6659 72.8343,0 129.334,-21.6658 169.168,-64.8333 39.8323,-43.3338 59.8327,-102.166 59.8327,-176.333l0 -64.9996zm-143.001 94.8328c0,71.4994 -28.9994,107.333 -87.0003,107.333 -24.6662,0 -46.1657,-10.1655 -64.1659,-30.667 -18.1665,-20.4994 -28.9994,-46.1657 -32.9999,-76.6664l184.166 0z"/>
+   <glyph unicode="o" horiz-adv-x="611" d="M303.166 -12.1657c-83.3324,0 -148.833,23.3334 -196.5,69.9981 -47.6648,46.6669 -71.4994,110.167 -71.4994,190.167 0,82.6671 24.6662,147.5 74.1671,194.167 49.4988,46.6669 116.501,70.0003 200.667,70.0003 82.9998,0 148.166,-23.3334 195.334,-70.0003 47.1658,-46.6669 70.8319,-108.5 70.8319,-185.332 0,-82.9998 -24.3336,-148.667 -73.0007,-196.835 -48.665,-48.166 -115.332,-72.1647 -200,-72.1647zm4.0005 406.166c-36.4993,0 -64.8333,-12.5005 -85,-37.5015 -20.1667,-25.1652 -30.3322,-60.6665 -30.3322,-106.5 0,-95.9993 38.8322,-143.999 116.332,-143.999 73.8323,0 110.833,49.3324 110.833,147.833 0,93.5 -37.3331,140.167 -111.833,140.167z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Nirmala UI";font-variant:normal;font-style:normal;font-weight:bold;src:url("#FontID0") format(svg)}
+    .str0 {stroke-width:1.63;stroke-miterlimit:2.61313}
+    .str3 {stroke:#F58634;stroke-width:6.94;stroke-miterlimit:2.61313}
+    .str2 {stroke:#F58634;stroke-width:3;stroke-miterlimit:2.61313}
+    .str1 {stroke:#827AF0;stroke-width:3;stroke-miterlimit:2.61313}
+    .fil2 {fill:#F58634}
+    .fil1 {fill:#827AF0}
+    .fil0 {fill:#827AF0;fill-rule:nonzero}
+    .fnt0 {font-weight:bold;font-size:1846.22px;font-family:'Nirmala UI'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M154.83 1194.43l0 -947.5 251.6 0c303.87,0 742.81,-48.57 722.37,480 -19.31,499.18 -426.6,467.5 -722.37,467.5l-251.6 0z"/>
+  <g transform="matrix(0.950565 0 0 1 -3994.12 -3077.63)">
+   <text x="5500" y="4250"  class="fil1 fnt0">e</text>
+  </g>
+  <path class="fil1" d="M2596.61 1194.83c16.54,-21.55 35.71,-40.95 57.56,-58.15 -19.07,17.97 -38.34,37.45 -57.56,58.15z"/>
+  <path class="fil1" d="M3690.64 1194.83l-269.98 0 0 -526.48c0,-134.17 -46.8,-200.94 -140.39,-200.94 -44.46,0 -80.73,20 -108.81,60.31 -28.08,40.31 -42.12,90.46 -42.12,150.46l0 516.64 -270.56 0 0 -532.02c0,-130.16 -46.21,-195.4 -138.06,-195.4 -46.21,0 -83.36,19.08 -110.85,57.54 -27.79,38.46 -41.83,90.77 -41.83,156.93l0 512.94 -270.56 0 0 -272.44 0 -62.73c63.57,-204.87 177.23,-322.48 299.13,-481.38 19.21,-20.7 38.49,-40.18 57.56,-58.15 10,-7.88 20.57,-15.29 31.7,-22.23l3.56 -2.19c50.61,-31.08 105.89,-46.46 165.85,-46.46 124.02,0 208.84,57.24 254.47,172.01 66.98,-114.77 164.97,-172.01 294.83,-172.01 190.71,0 286.06,123.7 286.06,371.4l0 574.18z"/>
+  <g transform="matrix(0.950565 0 0 1 -1444.22 -3057.74)">
+   <text x="5500" y="4250"  class="fil1 str1 fnt0">o</text>
+  </g>
+  <g transform="matrix(0.950565 0 0 1 -383.273 -3057.74)">
+   <text x="5500" y="4250"  class="fil2 str2 fnt0">o</text>
+  </g>
+  <path class="fil2 str3" d="M4640.78 684.55c247.57,156.53 222.57,88.57 440.35,0l2.05 132.78c-241.12,166.96 -228.35,112.4 -440.18,14.98l-2.22 -147.76z"/>
+ </g>
+</svg>
